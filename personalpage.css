@@ -1,0 +1,134 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body,html {
+    width:100%;
+    height:100%;
+    scroll-behavior: smooth;
+}
+
+#container{
+
+    background-color: yellow;
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+  
+    
+}
+
+
+header{
+    width:100vw;
+    height:80px;
+    background-color: skyblue;
+    padding:20px;
+    position:fixed;
+    top:0;
+    left:0;
+
+
+}
+
+header ul{
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.sections{
+ width: 100vw;
+ height:100vh;
+ padding-top:90px;
+ 
+}
+
+.sections #about{
+    display: flex;
+    
+}
+
+#home{
+
+    /* background-color: white; */
+    background-image: linear-gradient(to bottom right,rgb(106, 90, 205),white);
+    /* position:absolute; */
+    
+}
+
+#about{
+    
+    background-image: linear-gradient(to top right,blue,white);
+}
+
+#projects {
+    background-image: linear-gradient(to top left,pink,white);
+}
+
+#homeMain{
+    
+    height:225px;
+    
+    width:225px;
+    /* background-color: lavender; */
+    background-image:url("images/ducky3.jpeg");
+    
+    background-repeat: no-repeat;
+    position: absolute;
+    left:800px;
+    text-align: center;
+
+}
+
+#homeContent{
+    height:400px;
+     width:400px;
+    /* background-color: lavender; */
+    position: absolute;
+    left:800px;
+    top:500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#socMed{
+    align-items: center;
+
+}
+
+
+
+ul#social-holder li{
+
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+i.fab{
+    color:pink;
+}
+
+i.fa-linkedin{
+    color:blue;
+    font-size: 100px;
+}
+
+i.fa-twitter{
+    color:skyblue;
+    font-size: 100px;
+}
+
